@@ -1,0 +1,168 @@
+@media all and (max-width: @tabletWidthLandscape) {
+	.content {
+		//Homepage
+		.slideshow {
+			min-height: initial;
+			padding: 0;
+			background-attachment: scroll;
+			background-position: center;
+
+			#slideshow {
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+		}
+
+		//Tour
+		#curriculum-tour {
+			.carousel-indicators {
+				width: 100%;
+				bottom: 0;
+			}
+
+			.carousel-control {
+				width: 15%;
+				background-image: none;
+				background-repeat: no-repeat;
+				top: inherit;
+				bottom: 30px;
+				z-index: 30;
+
+				&.left {
+					left: 0;
+				}
+			}
+
+			.carousel-inner {
+				.item {
+					max-height: inherit;
+
+					img, iframe {
+						width: 100%;
+					}
+
+					.caption {
+						display: block;
+						flex-direction: inherit;
+						align-items: inherit;
+						justify-content: inherit;
+						height: auto;
+						padding: 20px 30px;
+						margin-bottom: 40px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: @tabletWidthPortrait) and (min-width: @mobileLgWidth) {
+	//Mixins
+	.container {
+		&.container-sm-full {
+			width: 100%;
+		}
+	}
+}
+
+@media all and (max-width: @tabletWidthPortrait) {
+	//Navigation
+	.navbar {
+		.navbar-header {
+			.navbar-brand {
+				background: none;
+				width: inherit;
+				font-size: 1.5em;
+				line-height: 1em;
+
+				span {
+					font: inherit;
+					color: inherit;
+				}
+			}
+		}
+	}
+
+	.content {
+		//General
+		.header {
+			text-align: center;
+		}
+
+		//Homepage
+		.billboard, .slideshow {
+			min-height: initial;
+			padding: 0;
+			background-attachment: scroll;
+			background-position: center;
+		}
+
+		.billboard {
+			.blackboard {
+				margin-top: 0;
+				border-radius: 0;
+			}
+		}
+
+		.features {
+			padding: 15px;
+
+			.feature {
+
+				& + .feature {
+					margin-top: 7px;
+				}
+
+				a.button-link + a.button-link {
+					margin-top: 10px;
+					margin-left: inherit;
+				}
+			}
+		}
+
+		.slideshow {
+			#slideshow {
+				margin: 0;
+				border-radius: 0;
+			}
+		}
+
+		//Benefits
+		.benefit_list {
+			text-align: center;
+
+			ol {
+				list-style-position: inside;
+				padding-left: 0;
+
+				li > header {
+					font-size: @fontSizeMd;
+				}
+			}
+		}
+
+		//Testimonials
+		#testimonial_header {
+			text-align: center;
+
+			h1 {
+				margin-bottom: 15px;
+			}
+
+			div {
+				text-align: center;
+			}
+		}
+
+		//Tour
+		#curriculum-tour {
+			.carousel-inner {
+				.item {
+					.caption {
+						margin-bottom: 25px;
+					}
+				}
+			}
+		}
+	}
+}

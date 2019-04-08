@@ -1,0 +1,50 @@
+.lesson_picker_container {
+	position: relative;
+	margin-bottom: 20px;
+
+	#blackboard_child {
+		border: double 5px #000;
+	}
+
+	.lesson_picker {
+		position: absolute;
+		width: 100%;
+		max-width: 282px;
+		left: 40px;
+		bottom: 30px;
+		padding: 10px;
+		border-radius: 4px;
+
+		header {
+			margin: 0 5px 10px;
+		}
+	}
+}
+
+#lesson_select_form {
+	select {
+		width: 90%;
+		padding: 5px;
+		border: 0 none;
+		border-radius: 5px;
+		font-family: "Futura", "Century Gothic", sans-serif;
+	}
+}
+
+.lesson_catalog {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 4px;
+	background-color: @brandGold;
+
+	h2 {
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+
+	.lesson_list {
+		overflow-y: auto;
+		height: 500px;
+	}
+}
+

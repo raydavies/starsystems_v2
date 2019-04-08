@@ -1,0 +1,115 @@
+@media all and (max-width: @mobileLgWidth) {
+	//mixin
+	.header {
+		&.header-xl {
+			font-size: 24px;
+		}
+	}
+
+	.main_wrapper {
+		.page_start {
+			margin: 10px auto;
+		}
+	}
+
+	.content {
+		//FAQ
+		#faq {
+			.panel-heading {
+				padding: 10px 21px 10px 15px;
+			}
+		}
+
+		//Lesson Topics
+		.lesson_picker_container {
+			text-align: center;
+
+			.lesson_picker {
+				position: inherit;
+				left: inherit;
+				bottom: inherit;
+				max-width: 100%;
+
+				#lesson_select_form {
+					select {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		.lesson_catalog {
+			border-radius: 0;
+		}
+
+		//About Us
+		#product_info {
+			.nav-tabs {
+				li {
+					max-width: 33%;
+				}
+			}
+		}
+	}
+
+	.footer {
+		text-align: center;
+
+		.footer_col {
+			text-align: center;
+			padding-bottom: 40px;
+		}
+
+		.footer-legal {
+			p {
+				text-align: center;
+			}
+		}
+	}
+}
+
+@media all and (max-width: @mobileSmWidth) {
+	.navbar {
+		.navbar-header {
+			.navbar-brand {
+				font-size: 1.1em;
+			}
+		}
+	}
+
+	.content {
+		//Homepage
+		.billboard {
+			.blackboard {
+				.tagline {
+					font-size: 2.5em;
+				}
+			}
+		}
+
+		.features {
+			header {
+				font-size: 2em;
+			}
+		}
+
+		//About Us
+		#product_info {
+			.nav-tabs {
+				li {
+					a {
+						padding: 5px;
+					}
+				}
+			}
+		}
+
+		//FAQ
+		#faq {
+			.panel-heading {
+				padding: 10px 30px 10px 15px;
+			}
+		}
+	}
+}
+

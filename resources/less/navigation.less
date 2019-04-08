@@ -1,0 +1,51 @@
+@import "variables.less";
+
+.navbar {
+	margin-bottom: 0;
+	font-family: @fontLillyReg;
+
+	header& {
+		flex: 0;
+	}
+
+	&.navbar-gold {
+		background-color: #f6dab1;
+		border-color: #f1c87a;
+	}
+	&-clouds {
+		background-color: #9bc5dd;
+		background-image: url('@{imgdir}/bg/sky-header.jpg');
+		background-position: center top;
+		background-repeat: repeat-x;
+		background-attachment: fixed;
+		border-color: #9bc5dd;
+
+		.navbar-toggle {
+			border-color: #999;
+
+			&:hover {
+				background-color: #999;
+			}
+
+			.icon-bar {
+				background-color: #000;
+			}
+		}
+	}
+	&-brand {
+		font-family: @fontLogo;
+		font-size: 2.5em;
+	}
+	.star_logo {
+		width: 500px;
+		background-image: url('@{imgdir}/starlogo-small.png');
+		background-position: 0 10px;
+		background-repeat: no-repeat;
+	}
+	& &-brand {
+		color: #000;
+	}
+	&-nav > li > a {
+		color: #333;
+	}
+}

@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+html {
+	position: relative;
+}
+body {
+	padding: 50px 0 0;
+	font-size: @fontSizeDefault;
+	font-family: @fontDefault;
+	display: flex;
+	flex-direction: column;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+.main_wrapper {
+	flex: 1 0 auto;
+	width: 100%;
+
+	.page_start {
+		margin: 20px auto 10px;
+
+	}
+}
+.alert-box > .alert {
+	border-left: 0 none;
+	border-right: 0 none;
+	font-weight: bold;
+	font-family: @fontLillyReg;
+}
+.errormsg {
+	color: #a94442;
+	font-weight: bold;
+}
+.scroll-btn {
+	width: 75px;
+	height: 75px;
+	position: fixed;
+	right: 3%;
+	bottom: 10%;
+	z-index: 999;
+	border: 2px solid #000;
+	border-radius: 8px;
+	opacity: 0.4;
+}
+.caret.caret-large {
+	border-top: 8px solid;
+	border-right: 8px solid transparent;
+	border-bottom: 0 none;
+	border-left: 8px solid transparent;
+
+	&.active {
+		border-top: 0 none;
+		border-right: 8px solid transparent;
+		border-bottom: 8px solid;
+		border-left: 8px solid transparent;
+	}
+}
+
+/* Headers */
+.header {
+	font-family: @fontCooperBold;
+	font-size: @fontSizePlus;
+
+	&.header-lrg {
+		font-size: @fontSizeLrg;
+	}
+
+	&.header-xl {
+		font-size: @fontSizeXL;
+	}
+}
+
+/* Links */
+a.button-link {
+	display: inline-block;
+}
+
+/* Panels */
+.panel {
+	.panel-heading {
+		position: relative;
+
+		.caret {
+			position: absolute;
+			top: 16px;
+			right: 16px;
+		}
+	}
+}
+
+/* Lists */
+ol.list-item-bold, ul.list-item-bold {
+	font-weight: bold;
+
+	li > p, li > span {
+		font-weight: normal;
+	}
+}
+
+ol > li > :first-child {
+	/* Make Firefox put the list marker inside */
+	/* https://bugzilla.mozilla.org/show_bug.cgi?id=36854 "if list-style-position is inside, bullet takes own line" */
+	display: inline;
+}
+ol > l
+i > :first-child:after {
+	/* Add the margin that was lost w/ display: inline */
+	/* Firefox 10 displays this as block */
+	/* Safari 5.1.2 and Chrome 17.0.963.56 don't */
+	/*
+	Commenting out for now
+	content: "";
+	display: block;
+	margin-bottom: 1em;
+	*/
+}
+
+/* Forms */
+.form-horizontal .control-message {
+	text-align: left;
+}
+.form-group {
+	.control-label {
+		&.label-with-link {
+			display: block;
+		}
+	}
+}
