@@ -8,6 +8,7 @@
 					<li><a href="{{ route('curriculum') }}">Our Product</a></li>
 					<li><a href="{{ route('faq') }}">FAQ</a></li>
 					<li><a href="{{ route('contact') }}">Contact Us</a></li>
+					<li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
 				</ul>
 			</div>
 			<div id="footer_col_2" class="footer_col col-md-3 hidden-sm hidden-xs text-center">
@@ -37,8 +38,8 @@
 				<ul class="list-unstyled footer-address">
 					<li>14007 S Bell Rd</li>
 					<li>Homer Glen, IL 60491</li>
-					<li>Sales &amp; Inquiries: (708) 675-7640</li>
-					<li>Toll-Free: (844) 895-1124</li>
+					<li>Sales &amp; Inquiries: <a href="tel:7086757640">(708) 675-7640</a></li>
+					<li>Toll-Free: <a href="tel:8448951124">(844) 895-1124</a></li>
 				</ul>
 			</div>
 		</div>

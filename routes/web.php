@@ -45,6 +45,10 @@ Route::get('/faq', ['as' => 'faq', function() {
 Route::get('contact', ['as' => 'contact', 'uses' => 'ContactController@create']);
 Route::post('contact', ['as' => 'contact', 'uses' => 'ContactController@store']);
 
+Route::get('privacy', ['as' => 'privacy', function() {
+    return view('privacy');
+}]);
+
 // Authentication
 Route::get('/login', ['as' => 'login', 'uses' => 'Auth\LoginController@showLoginForm']);
 Route::post('/login', ['as' => 'login', 'uses' => 'Auth\LoginController@login']);

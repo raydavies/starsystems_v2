@@ -4,7 +4,7 @@
 @section('headstyles')
     <link rel="stylesheet" href="{{ asset('/css/vendor/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/vendor/normalize.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/vendor/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/vendor/fontawesome-5.8.2/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/admin.css') }}">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Corben:bold">
 @show

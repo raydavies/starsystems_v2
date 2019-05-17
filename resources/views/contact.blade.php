@@ -18,8 +18,8 @@
 		<p class="font-plus">For more information, or to leave a comment, please call us or fill out the form below!</p>
 		<div class="row">
 			<address class="contact_info col-sm-6 col-sm-offset-3">
-				(708) 675-7640<br>
-				Toll-Free (844) 895-1124
+				<a href="tel:7086757640">(708) 675-7640</a><br>
+				Toll-Free <a href="tel:8448951124">(844) 895-1124</a>
 			</address>
 		</div>
 	</div>
