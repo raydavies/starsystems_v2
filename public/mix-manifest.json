@@ -1,8 +1,8 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css",
-    "/css/admin.css": "/css/admin.css",
-    "/js/legacy.js": "/js/legacy.js",
-    "/js/admin.js": "/js/admin.js",
-    "/js/vendor/jquery.touchSwipe.min.js": "/js/vendor/jquery.touchSwipe.min.js"
+    "/js/app.js": "/js/app.js?id=8f9790dd4ac56dac5ea1",
+    "/css/app.css": "/css/app.css?id=345a642a5bb3b2d9550a",
+    "/css/admin.css": "/css/admin.css?id=2e2a44f9cd2e67fb8507",
+    "/js/legacy.js": "/js/legacy.js?id=40dccbbe982e867f2893",
+    "/js/admin.js": "/js/admin.js?id=fcded27f65e593845bed",
+    "/js/vendor/jquery.touchSwipe.min.js": "/js/vendor/jquery.touchSwipe.min.js?id=47a0b3f24d2454369794"
 }

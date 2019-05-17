@@ -34,5 +34,5 @@ mix.less('resources/less/app.less', 'public/css')
    .less('resources/less/admin.less', 'public/css');
 
 if (mix.inProduction()) {
-   mix.version(['css/app.css', 'js/app.js']);
+   mix.version(['public/css/app.css', 'public/js/app.js']);
 }
