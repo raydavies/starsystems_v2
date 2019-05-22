@@ -1,0 +1,32 @@
+[Jan 6, 2017 20:40:05 -6-error] [] Error #389283: Error #39752893. Server reported an error performing action `connect` with additional params: `Array
+(
+)
+`. Body Details: `Array
+(
+    [type] => system
+    [name] => user
+    [message] => Unknown username or password.  Please use your iThemes username (not email) and password to log in.
+)
+`. Response Details: `Array
+(
+    [code] => 200
+    [message] => OK
+)
+`.
+[Feb 2, 2017 15:36:03 -6-error] [] Error #9038: Loopback test error: `cURL error 28: Operation timed out after 8000 milliseconds with 1 bytes received`. URL: `http://starlearningsystems.com/wp/wp-admin/admin-ajax.php`. If you need to contact your web host, tell them that when PHP tries to connect back to the site at the URL `http://starlearningsystems.com/wp/wp-admin/admin-ajax.php` via curl (or other fallback connection method built into WordPress) that it gets the error `cURL error 28: Operation timed out after 8000 milliseconds with 1 bytes received`. This means that WordPress' built-in simulated cron system cannot function properly, breaking some WordPress features & subsequently some plugins. There may be a problem with the server configuration (eg local DNS problems, mod_security, etc) preventing connections from working properly.
+[Feb 2, 2017 15:36:09 -6-error] [] wp-cron.php loopback test error: `cURL error 28: Operation timed out after 4000 milliseconds with 0 bytes received`. URL: `http://starlearningsystems.com/wp/wp-cron.php?doing_wp_cron=1486071365.7398450374603271484375`. If you need to contact your web host, tell them that when PHP tries to connect back to the site at the URL `http://starlearningsystems.com/wp/wp-cron.php?doing_wp_cron=1486071365.7398450374603271484375` via curl (or other fallback connection method built into WordPress) that it gets the error `cURL error 28: Operation timed out after 4000 milliseconds with 0 bytes received`. This means that WordPress' built-in simulated cron system cannot function properly, breaking some WordPress features & subsequently some plugins. There may be a problem with the server configuration (eg local DNS problems, mod_security, etc) preventing connections from working properly.
+[May 22, 2017 09:48:36 -6-error] [] Error #389283: Error #39752893. Server reported an error performing action `connect` with additional params: `Array
+(
+)
+`. Body Details: `Array
+(
+    [type] => system
+    [name] => user
+    [message] => Unknown username or password.  Please use your iThemes username (not email) and password to log in.
+)
+`. Response Details: `Array
+(
+    [code] => 200
+    [message] => OK
+)
+`.

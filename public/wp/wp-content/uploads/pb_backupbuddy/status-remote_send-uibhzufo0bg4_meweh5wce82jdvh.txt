@@ -1,0 +1,84 @@
+{"event":"details","time":1483735231,"u":"03","run":"0.17","mem":"3.31","data":"----- Initiating master send function for BackupBuddy v7.2.1.8 for basename file: `backup-starlearningsystems_com_wp-2017_01_06-08_34pm-full-msfj73kxsw.zip`. Post-send deletion: "}
+{"event":"details","time":1483735231,"u":"03","run":"0.17","mem":"3.31","data":"Created fileoptions lock file `send-uibhzufo0bg4.txt.lock` with ID: 5870551f096ef9.47461047."}
+{"event":"details","time":1483735231,"u":"03","run":"0.17","mem":"3.31","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1483735231,"u":"03","run":"0.17","mem":"3.32","data":"Fileoptions `send-uibhzufo0bg4.txt` saved. 1364 bytes written."}
+{"event":"details","time":1483735231,"u":"04","run":"0.17","mem":"3.31","data":"Initializing destination."}
+{"event":"details","time":1483735231,"u":"04","run":"0.17","mem":"3.31","data":"Loading destination init file `\/home\/starlea\/public_html\/public\/wp\/wp-content\/plugins\/backupbuddy\/destinations\/stash2\/init.php`."}
+{"event":"details","time":1483735231,"u":"04","run":"0.17","mem":"3.32","data":"Destination init loaded."}
+{"event":"details","time":1483735231,"u":"04","run":"0.17","mem":"3.32","data":"Initialized `stash2` destination."}
+{"event":"details","time":1483735231,"u":"04","run":"0.17","mem":"3.32","data":"Applying destination-specific defaults."}
+{"event":"details","time":1483735231,"u":"04","run":"0.17","mem":"3.33","data":"Applying global destination defaults."}
+{"event":"details","time":1483735231,"u":"04","run":"0.17","mem":"3.33","data":"Calling destination-specific send method."}
+{"event":"details","time":1483735231,"u":"04","run":"0.17","mem":"3.33","data":"Starting Stash2 send()."}
+{"event":"details","time":1483735231,"u":"05","run":"0.18","mem":"3.35","data":"Detecting backup type if possible."}
+{"event":"details","time":1483735231,"u":"05","run":"0.18","mem":"3.35","data":"Detected backup type as `full` via filename."}
+{"event":"details","time":1483735231,"u":"35","run":"0.48","mem":"3.44","data":"Starting S32 send()."}
+{"event":"details","time":1483735231,"u":"36","run":"0.49","mem":"3.66","data":"Using bundled cacert.pem file based on destination settings."}
+{"event":"details","time":1483735231,"u":"40","run":"0.54","mem":"4.77","data":"Guzzle client cainfo: `\/home\/starlea\/public_html\/public\/wp\/wp-content\/plugins\/backupbuddy\/destinations\/_s3lib2\/Guzzle\/Http\/Resources\/cacert.pem`. capath: `n\/a`."}
+{"event":"details","time":1483735231,"u":"42","run":"0.55","mem":"4.93","data":"File size of `46.95 MB`."}
+{"event":"details","time":1483735231,"u":"42","run":"0.55","mem":"4.93","data":"Initiating multipart transfer."}
+{"event":"details","time":1483735231,"u":"66","run":"0.80","mem":"5.57","data":"Initiated multipart upload with ID `TOsLnXEcTyZqYSzyKycTr7Y.fjEuXQTtda2Sm0xO2WfLAu.FL62oj.IF8t8DYRbA1g_3CIv9OKYXHeJtsDSWk_DLgtqsTqIxaZSd5GtbZFmziKdDaDp9NlkW83ANJtuhhbYFzDKIwfLcKAW7trbkgA--`."}
+{"event":"details","time":1483735231,"u":"66","run":"0.80","mem":"5.57","data":"Detecting backup type if possible."}
+{"event":"details","time":1483735231,"u":"66","run":"0.80","mem":"5.57","data":"Detected backup type as `full` via filename."}
+{"event":"details","time":1483735231,"u":"66","run":"0.80","mem":"5.58","data":"Multipart initiated; passing over to send first chunk this run. Burst size: `10 MB`."}
+{"event":"details","time":1483735231,"u":"66","run":"0.80","mem":"5.58","data":"Max time not set in settings so detecting server max PHP runtime."}
+{"event":"details","time":1483735231,"u":"66","run":"0.80","mem":"5.58","data":"Using max runtime: `30`."}
+{"event":"details","time":1483735231,"u":"66","run":"0.80","mem":"5.58","data":"About to read in part contents of part `1` of `5` parts of file `\/home\/starlea\/public_html\/public\/wp\/wp-content\/uploads\/backupbuddy_backups\/backup-starlearningsystems_com_wp-2017_01_06-08_34pm-full-msfj73kxsw.zip` to remote location `IsCEvLOO8JlSOZ1P\/M7qbhExtjQXmcqonYuCikVa5IoJjSSvr` with multipart ID `TOsLnXEcTyZqYSzyKycTr7Y.fjEuXQTtda2Sm0xO2WfLAu.FL62oj.IF8t8DYRbA1g_3CIv9OKYXHeJtsDSWk_DLgtqsTqIxaZSd5GtbZFmziKdDaDp9NlkW83ANJtuhhbYFzDKIwfLcKAW7trbkgA--`."}
+{"event":"details","time":1483735231,"u":"68","run":"0.81","mem":"15.59","data":"Beginning upload."}
+{"event":"details","time":1483735237,"u":"73","run":"6.86","mem":"15.73","data":"Success sending chunk. Enable full logging for upload result details."}
+{"event":"details","time":1483735237,"u":"73","run":"6.86","mem":"15.73","data":"Uploaded size this burst: `10 MB`, Start time: `1483756831.6692`. Finish time: `1483756837.7318`. Elapsed: `6.0625569820404`. Speed: `1.65 MB`\/sec."}
+{"event":"details","time":1483735237,"u":"73","run":"6.86","mem":"15.73","data":"About to load fileoptions data."}
+{"event":"details","time":1483735237,"u":"73","run":"6.86","mem":"15.73","data":"Fileoptions instance #10."}
+{"event":"details","time":1483735237,"u":"73","run":"6.86","mem":"15.73","data":"Created fileoptions lock file `send-uibhzufo0bg4.txt.lock` with ID: 58705525b2edd9.17808718."}
+{"event":"details","time":1483735237,"u":"73","run":"6.86","mem":"15.73","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1483735237,"u":"73","run":"6.86","mem":"15.73","data":"Fileoptions data loaded."}
+{"event":"details","time":1483735237,"u":"73","run":"6.86","mem":"15.73","data":"S3 multipart upload has more parts left."}
+{"event":"details","time":1483735237,"u":"73","run":"6.86","mem":"15.73","data":"Not approaching limits. Proceeding to next burst this run."}
+{"event":"details","time":1483735237,"u":"73","run":"6.87","mem":"15.74","data":"Fileoptions `send-uibhzufo0bg4.txt` saved. 1592 bytes written."}
+{"event":"details","time":1483735237,"u":"73","run":"6.87","mem":"15.73","data":"About to read in part contents of part `2` of `5` parts of file `\/home\/starlea\/public_html\/public\/wp\/wp-content\/uploads\/backupbuddy_backups\/backup-starlearningsystems_com_wp-2017_01_06-08_34pm-full-msfj73kxsw.zip` to remote location `IsCEvLOO8JlSOZ1P\/M7qbhExtjQXmcqonYuCikVa5IoJjSSvr` with multipart ID `TOsLnXEcTyZqYSzyKycTr7Y.fjEuXQTtda2Sm0xO2WfLAu.FL62oj.IF8t8DYRbA1g_3CIv9OKYXHeJtsDSWk_DLgtqsTqIxaZSd5GtbZFmziKdDaDp9NlkW83ANJtuhhbYFzDKIwfLcKAW7trbkgA--`."}
+{"event":"details","time":1483735237,"u":"75","run":"6.88","mem":"15.73","data":"Beginning upload."}
+{"event":"details","time":1483735249,"u":"28","run":"18.42","mem":"15.73","data":"Success sending chunk. Enable full logging for upload result details."}
+{"event":"details","time":1483735249,"u":"29","run":"18.42","mem":"15.73","data":"Uploaded size this burst: `10 MB`, Start time: `1483756837.7358`. Finish time: `1483756849.29`. Elapsed: `11.554255008698`. Speed: `886 KB`\/sec."}
+{"event":"details","time":1483735249,"u":"29","run":"18.42","mem":"15.73","data":"fileoptions already loaded from prior pass."}
+{"event":"details","time":1483735249,"u":"29","run":"18.42","mem":"15.73","data":"S3 multipart upload has more parts left."}
+{"event":"details","time":1483735249,"u":"29","run":"18.42","mem":"15.73","data":"Not approaching limits. Proceeding to next burst this run."}
+{"event":"details","time":1483735249,"u":"29","run":"18.42","mem":"15.74","data":"Fileoptions `send-uibhzufo0bg4.txt` saved. 1592 bytes written."}
+{"event":"details","time":1483735249,"u":"29","run":"18.42","mem":"15.74","data":"About to read in part contents of part `3` of `5` parts of file `\/home\/starlea\/public_html\/public\/wp\/wp-content\/uploads\/backupbuddy_backups\/backup-starlearningsystems_com_wp-2017_01_06-08_34pm-full-msfj73kxsw.zip` to remote location `IsCEvLOO8JlSOZ1P\/M7qbhExtjQXmcqonYuCikVa5IoJjSSvr` with multipart ID `TOsLnXEcTyZqYSzyKycTr7Y.fjEuXQTtda2Sm0xO2WfLAu.FL62oj.IF8t8DYRbA1g_3CIv9OKYXHeJtsDSWk_DLgtqsTqIxaZSd5GtbZFmziKdDaDp9NlkW83ANJtuhhbYFzDKIwfLcKAW7trbkgA--`."}
+{"event":"details","time":1483735249,"u":"30","run":"18.43","mem":"15.73","data":"Beginning upload."}
+{"event":"details","time":1483735250,"u":"72","run":"19.85","mem":"15.73","data":"Success sending chunk. Enable full logging for upload result details."}
+{"event":"details","time":1483735250,"u":"72","run":"19.85","mem":"15.73","data":"Uploaded size this burst: `10 MB`, Start time: `1483756849.2917`. Finish time: `1483756850.7211`. Elapsed: `1.4294052124023`. Speed: `7 MB`\/sec."}
+{"event":"details","time":1483735250,"u":"72","run":"19.85","mem":"15.73","data":"fileoptions already loaded from prior pass."}
+{"event":"details","time":1483735250,"u":"72","run":"19.85","mem":"15.73","data":"S3 multipart upload has more parts left."}
+{"event":"details","time":1483735250,"u":"72","run":"19.85","mem":"15.73","data":"Not approaching limits. Proceeding to next burst this run."}
+{"event":"details","time":1483735250,"u":"72","run":"19.85","mem":"15.74","data":"Fileoptions `send-uibhzufo0bg4.txt` saved. 1592 bytes written."}
+{"event":"details","time":1483735250,"u":"72","run":"19.85","mem":"15.74","data":"About to read in part contents of part `4` of `5` parts of file `\/home\/starlea\/public_html\/public\/wp\/wp-content\/uploads\/backupbuddy_backups\/backup-starlearningsystems_com_wp-2017_01_06-08_34pm-full-msfj73kxsw.zip` to remote location `IsCEvLOO8JlSOZ1P\/M7qbhExtjQXmcqonYuCikVa5IoJjSSvr` with multipart ID `TOsLnXEcTyZqYSzyKycTr7Y.fjEuXQTtda2Sm0xO2WfLAu.FL62oj.IF8t8DYRbA1g_3CIv9OKYXHeJtsDSWk_DLgtqsTqIxaZSd5GtbZFmziKdDaDp9NlkW83ANJtuhhbYFzDKIwfLcKAW7trbkgA--`."}
+{"event":"details","time":1483735250,"u":"73","run":"19.86","mem":"15.73","data":"Beginning upload."}
+{"event":"details","time":1483735251,"u":"93","run":"21.06","mem":"15.74","data":"Success sending chunk. Enable full logging for upload result details."}
+{"event":"details","time":1483735251,"u":"93","run":"21.07","mem":"15.74","data":"Uploaded size this burst: `10 MB`, Start time: `1483756850.7228`. Finish time: `1483756851.9349`. Elapsed: `1.2121539115906`. Speed: `8.25 MB`\/sec."}
+{"event":"details","time":1483735251,"u":"93","run":"21.07","mem":"15.74","data":"fileoptions already loaded from prior pass."}
+{"event":"details","time":1483735251,"u":"93","run":"21.07","mem":"15.74","data":"S3 multipart upload has more parts left."}
+{"event":"details","time":1483735251,"u":"93","run":"21.07","mem":"15.74","data":"Not approaching limits. Proceeding to next burst this run."}
+{"event":"details","time":1483735251,"u":"93","run":"21.07","mem":"15.74","data":"Fileoptions `send-uibhzufo0bg4.txt` saved. 1592 bytes written."}
+{"event":"details","time":1483735251,"u":"93","run":"21.07","mem":"15.74","data":"About to read in part contents of part `5` of `5` parts of file `\/home\/starlea\/public_html\/public\/wp\/wp-content\/uploads\/backupbuddy_backups\/backup-starlearningsystems_com_wp-2017_01_06-08_34pm-full-msfj73kxsw.zip` to remote location `IsCEvLOO8JlSOZ1P\/M7qbhExtjQXmcqonYuCikVa5IoJjSSvr` with multipart ID `TOsLnXEcTyZqYSzyKycTr7Y.fjEuXQTtda2Sm0xO2WfLAu.FL62oj.IF8t8DYRbA1g_3CIv9OKYXHeJtsDSWk_DLgtqsTqIxaZSd5GtbZFmziKdDaDp9NlkW83ANJtuhhbYFzDKIwfLcKAW7trbkgA--`."}
+{"event":"details","time":1483735251,"u":"94","run":"21.07","mem":"12.68","data":"Beginning upload."}
+{"event":"details","time":1483735253,"u":"07","run":"22.21","mem":"12.68","data":"Success sending chunk. Enable full logging for upload result details."}
+{"event":"details","time":1483735253,"u":"07","run":"22.21","mem":"12.68","data":"Uploaded size this burst: `6.95 MB`, Start time: `1483756851.9366`. Finish time: `1483756853.0784`. Elapsed: `1.1418778896332`. Speed: `6.09 MB`\/sec."}
+{"event":"details","time":1483735253,"u":"07","run":"22.21","mem":"12.68","data":"fileoptions already loaded from prior pass."}
+{"event":"details","time":1483735253,"u":"07","run":"22.21","mem":"12.68","data":"Getting etags and notifying of multipart upload completion."}
+{"event":"details","time":1483735253,"u":"31","run":"22.44","mem":"12.70","data":"Server notified of multipart completion."}
+{"event":"details","time":1483735253,"u":"31","run":"22.44","mem":"12.70","data":"Notifying Stash of upload completion."}
+{"event":"details","time":1483735257,"u":"13","run":"26.26","mem":"12.70","data":"Stash notified of upload completition."}
+{"event":"details","time":1483735257,"u":"13","run":"26.26","mem":"12.70","data":"No more parts left for this multipart upload. Clearing multipart instance variables."}
+{"event":"details","time":1483735257,"u":"13","run":"26.26","mem":"12.70","data":"Upload speed average of all chunks: `1.22 MB`."}
+{"event":"details","time":1483735257,"u":"13","run":"26.26","mem":"12.70","data":"Fileoptions `send-uibhzufo0bg4.txt` saved. 1532 bytes written."}
+{"event":"details","time":1483735257,"u":"13","run":"26.26","mem":"12.69","data":"Starting remote archive limiting. Limiting to `0` database and `0` full archives based on destination settings."}
+{"event":"details","time":1483735257,"u":"29","run":"26.42","mem":"12.70","data":"Trimmed remote archives. Results: `Array\n(\n    [dryrun] => \n    [trim_files] => Array\n        (\n        )\n\n    [trim_count] => Array\n        (\n        )\n\n    [original_count] => Array\n        (\n        )\n\n)\n`."}
+{"event":"details","time":1483735257,"u":"29","run":"26.43","mem":"5.71","data":"Completed send function. Success."}
+{"event":"details","time":1483735257,"u":"29","run":"26.43","mem":"5.71","data":"About to load fileoptions data."}
+{"event":"details","time":1483735257,"u":"29","run":"26.43","mem":"5.71","data":"Fileoptions instance #16."}
+{"event":"details","time":1483735257,"u":"29","run":"26.43","mem":"5.72","data":"Created fileoptions lock file `send-uibhzufo0bg4.txt.lock` with ID: 58705539487310.65868406."}
+{"event":"details","time":1483735257,"u":"29","run":"26.43","mem":"5.72","data":"Fileoptions load using 0.01 MB of memory."}
+{"event":"details","time":1483735257,"u":"29","run":"26.43","mem":"5.72","data":"Fileoptions data loaded."}
+{"event":"details","time":1483735257,"u":"29","run":"26.43","mem":"5.72","data":"Post-send deletion not enabled."}
+{"event":"details","time":1483735257,"u":"29","run":"26.43","mem":"5.72","data":"Finished sending email NOT enabled. Skipping."}
+{"event":"details","time":1483735257,"u":"30","run":"26.43","mem":"5.71","data":"Ending send() function pass."}

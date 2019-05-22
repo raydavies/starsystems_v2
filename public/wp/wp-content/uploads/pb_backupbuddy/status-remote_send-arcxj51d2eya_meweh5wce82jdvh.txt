@@ -1,0 +1,28 @@
+{"event":"details","time":1486049719,"u":"83","run":"0.18","mem":"3.66","data":"----- Initiating master send function for BackupBuddy v7.2.1.8 for basename file: `backup-starlearningsystems_com_wp-2017_02_02-03_04pm-full-mhjcyoeft2.zip`. Post-send deletion: "}
+{"event":"details","time":1486049719,"u":"83","run":"0.18","mem":"3.66","data":"Created fileoptions lock file `send-arcxj51d2eya.txt.lock` with ID: 5893a617ccac95.12511647."}
+{"event":"details","time":1486049719,"u":"83","run":"0.18","mem":"3.66","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1486049719,"u":"83","run":"0.18","mem":"3.66","data":"Fileoptions `send-arcxj51d2eya.txt` saved. 1084 bytes written."}
+{"event":"details","time":1486049719,"u":"83","run":"0.18","mem":"3.66","data":"Initializing destination."}
+{"event":"details","time":1486049719,"u":"84","run":"0.18","mem":"3.66","data":"Loading destination init file `\/home\/starlea\/public_html\/public\/wp\/wp-content\/plugins\/backupbuddy\/destinations\/local\/init.php`."}
+{"event":"details","time":1486049719,"u":"84","run":"0.18","mem":"3.66","data":"Destination init loaded."}
+{"event":"details","time":1486049719,"u":"84","run":"0.18","mem":"3.66","data":"Initialized `local` destination."}
+{"event":"details","time":1486049719,"u":"84","run":"0.18","mem":"3.66","data":"Applying destination-specific defaults."}
+{"event":"details","time":1486049719,"u":"84","run":"0.18","mem":"3.67","data":"Applying global destination defaults."}
+{"event":"details","time":1486049719,"u":"84","run":"0.18","mem":"3.67","data":"Calling destination-specific send method."}
+{"event":"details","time":1486049719,"u":"84","run":"0.18","mem":"3.67","data":"Starting send to `\/home\/starlea\/public_html\/public\/wp\/`."}
+{"event":"details","time":1486049813,"u":"39","run":"93.74","mem":"3.67","data":"Send success."}
+{"event":"details","time":1486049813,"u":"39","run":"93.74","mem":"3.67","data":"No local destination file limit to enforce."}
+{"event":"details","time":1486049813,"u":"40","run":"93.74","mem":"3.67","data":"About to load fileoptions data."}
+{"event":"details","time":1486049813,"u":"40","run":"93.74","mem":"3.67","data":"Fileoptions instance #11."}
+{"event":"details","time":1486049813,"u":"40","run":"93.74","mem":"3.67","data":"Created fileoptions lock file `send-arcxj51d2eya.txt.lock` with ID: 5893a67561d928.35481287."}
+{"event":"details","time":1486049813,"u":"40","run":"93.74","mem":"3.67","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1486049813,"u":"40","run":"93.74","mem":"3.67","data":"Fileoptions data loaded."}
+{"event":"details","time":1486049813,"u":"40","run":"93.74","mem":"3.67","data":"Completed send function. Success."}
+{"event":"details","time":1486049813,"u":"40","run":"93.74","mem":"3.67","data":"About to load fileoptions data."}
+{"event":"details","time":1486049813,"u":"40","run":"93.74","mem":"3.67","data":"Fileoptions instance #16."}
+{"event":"details","time":1486049813,"u":"40","run":"93.74","mem":"3.67","data":"Created fileoptions lock file `send-arcxj51d2eya.txt.lock` with ID: 5893a6756319c9.15262364."}
+{"event":"details","time":1486049813,"u":"40","run":"93.75","mem":"3.67","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1486049813,"u":"40","run":"93.75","mem":"3.67","data":"Fileoptions data loaded."}
+{"event":"details","time":1486049813,"u":"40","run":"93.75","mem":"3.67","data":"Post-send deletion not enabled."}
+{"event":"details","time":1486049813,"u":"40","run":"93.75","mem":"3.67","data":"Finished sending email NOT enabled. Skipping."}
+{"event":"details","time":1486049813,"u":"41","run":"93.75","mem":"3.66","data":"Ending send() function pass."}
