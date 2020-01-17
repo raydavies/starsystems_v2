@@ -5,8 +5,10 @@
 
     RewriteEngine On
 
-    # Wordpress
-    RewriteCond $1 !^(wp)
+    # Redirect non-secure to https
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{REQUEST_URI} !=/robots.txt
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [QSA,NC,NE,L,R=301]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .

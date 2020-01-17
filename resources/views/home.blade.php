@@ -29,13 +29,13 @@
 				<i class="fa fa-fw fa-lg fa-book"></i><span>Study</span> Interactive lessons are your child's first step toward mastering the curriculum and improving in school. Use the study mode for homework help any time, day or night.
 			</article>
 			<article class="feature col-md-3">
-				<i class="fa fa-fw fa-lg fa-lightbulb-o"></i><span>Practice</span> Just like with a live teacher, your child is given instant feedback. Get hands-on with the same material needed for school and standardized tests.
+				<i class="far fa-fw fa-lg fa-lightbulb"></i><span>Practice</span> Just like with a live teacher, your child is given instant feedback. Get hands-on with the same material needed for school and standardized tests.
 			</article>
 			<article class="feature col-md-3">
 				<i class="fa fa-fw fa-lg fa-graduation-cap"></i><span>Test</span> Prepare your child <strong><em>before</em></strong> she takes the test in school! Grades are written to the Progress Report for you to review.
 			</article>
 			<article class="feature col-md-3">
-				<i class="fa fa-fw fa-lg fa-pencil"></i><span>Essay</span> Help develop writing ability and research skills while your student exercises his creativity.
+				<i class="fas fa-fw fa-lg fa-pencil-alt"></i><span>Essay</span> Help develop writing ability and research skills while your student exercises his creativity.
 			</article>
 			<div class="feature cta-buttons col-md-12 text-center">
 				<a class="button-link" href="{{ route('curriculum') }}">

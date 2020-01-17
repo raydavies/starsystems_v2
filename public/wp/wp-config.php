@@ -26,7 +26,7 @@ define('DB_NAME', 'starlea_wp467');
 define('DB_USER', 'starlea_wp467');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'sSt(p]2574');
+define('DB_PASSWORD', 'N+uz8lflhvUm');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

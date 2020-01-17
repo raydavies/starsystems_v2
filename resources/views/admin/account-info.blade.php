@@ -18,7 +18,7 @@
             <div class="form-group">
                 <label for="email" class="control-label">Email</label>
                 <div class="input-group control-input">
-                    <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+                    <span class="input-group-addon"><i class="far fa-envelope fa-fw"></i></span>
                     <input disabled type="email" name="email" id="email" class="form-control" aria-describedby="email_status" value="{{ $user->email }}">
                     <span id="email_status" class="sr-only hidden"></span>
                 </div>
