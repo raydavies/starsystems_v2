@@ -43,7 +43,7 @@ function site_url() {
 	} else {
 		$pageURL .= $_SERVER["SERVER_NAME"] . rtrim( dirname($_SERVER['PHP_SELF']), '/\\' );
 	}
-	
+
 	return $pageURL;
 }
 
@@ -136,7 +136,7 @@ function wp_print_styles( $name ) {
 	global $pb_styles;
 	if ( $pb_styles[$name]['printed'] === false ) {
 		$pb_styles[$name]['printed'] = true;
-		
+
 		echo '<link rel="stylesheet" type="text/css" href="' . $pb_styles[$name]['file'] . '?ver=' . $pb_styles[$name]['version'] . '">';
 	}
 }
@@ -155,7 +155,7 @@ function wp_print_scripts( $name ) {
 	global $pb_scripts;
 	if ( $pb_scripts[$name]['printed'] === false ) {
 		$pb_scripts[$name]['printed'] = true;
-		
+
 		echo '<script src="' . $pb_scripts[$name]['file'] . '?ver=' . $pb_scripts[$name]['version'] . '" type="text/javascript"></script>';
 	}
 }
@@ -341,19 +341,19 @@ function current_user_can( $role ) {
 	return true;
 }
 function get_temp_dir() {
-	
+
 	if ( function_exists('sys_get_temp_dir') ) {
 		$temp = sys_get_temp_dir();
 		if ( @is_dir( $temp ) && is_writable( $temp ) )
 			return rtrim( $temp, '/\\' ) . '/';
 	}
-	
+
 	$temp = ABSPATH . 'temp/';
 	@mkdir( $temp );
 	if ( is_dir( $temp ) && is_writable( $temp ) ) {
 		return $temp;
 	}
-	
+
 	$temp = '/tmp/';
 	@mkdir( $temp );
 	return $temp;
@@ -667,34 +667,13 @@ function did_action( $action ) {
 		return true;
 	}
 }
-?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php
 // wpd-db.php modified for BB v6.0.0.6 to store set charset in $wpdb->charset for utfmb4 handling with mysqlbuddy in set_chartset().
 // NOTE: A copy of this file is dropped into _rollback_undo.php.
 
 
-
-<?php
 // wpd-db.php modified for BB v6.0.0.6 to store set charset in $wpdb->charset for utfmb4 handling with mysqlbuddy in set_charset(). Has comment "Added for BackupBuddy" by changes.
 // NOTE: A copy of this file is dropped into _rollback_undo.php.
-
-
 
 
 
@@ -1540,7 +1519,7 @@ class wpdb {
 				}
 			}
 		}
-		
+
 		$this->charset = $charset; // Added for BackupBuddy
 		$this->collate = $collate; // Added for BackupBuddy
 	}
@@ -4315,7 +4294,7 @@ if ( empty( $tempTables ) ) {
 // Loop through all bbold-SERIAL_ tables, renaming them back to live, deleting collisions as they occur.
 foreach( (array)$tempTables as $tempTable ) {
 	$nonTempName = str_replace( $tempPrefix, '', $tempTable['table_name'] );
-	
+
 	// CHECK if $nonTempName table exists in db. If it does then DROP the table.
 	$sql = "SELECT table_name FROM information_schema.tables WHERE table_name LIKE '" . str_replace( '_', '\_', $nonTempName ) . "%' AND table_schema = DATABASE()";
 	$tempTables = $wpdb->get_results( $sql, ARRAY_A );
@@ -4329,7 +4308,7 @@ foreach( (array)$tempTables as $tempTable ) {
 			echo 'Error #24873: `' . $mysql_error . '`.<br>';
 		}
 	}
-	
+
 	// RENAME $tempTable to $nonTempName
 	$sql = "RENAME TABLE `" . rollback_dbEscape( $tempTable['table_name'] ) . "` TO `" . rollback_dbEscape( $nonTempName ) . "`";
 	echo $sql . '<br>';
@@ -4428,4 +4407,3 @@ if ( file_exists( __FILE__ ) ) {
 	var win = window.dialogArguments || opener || parent || top;
 	win.pb_status_undourl( '' ); // Hide box.
 </script>
-

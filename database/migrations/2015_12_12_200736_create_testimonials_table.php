@@ -20,7 +20,7 @@ class CreateTestimonialsTable extends Migration {
 			$table->string('state_province', 2);
 			$table->text('comment');
 			$table->tinyInteger('flag_active', null, true)->default(0);
-			$table->integer('sort');
+			$table->integer('sort')->default(0);
 			$table->timestamps();
 
 			//add indexes
