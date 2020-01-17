@@ -51,7 +51,7 @@ class CreateTestimonialRequest extends Request
 		$inputs = $this->all();
 
 		foreach ($inputs as $field => $value) {
-			$inputs[$field] = filter_var($value, FILTER_SANITIZE_STRING);
+			$inputs[$field] = filter_var($value, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 		}
 
 		$this->replace($inputs);
