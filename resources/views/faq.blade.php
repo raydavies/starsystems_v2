@@ -55,7 +55,7 @@
 				<h3 class="panel-title text-left">How do I access the online teaching lessons?</h3>
 				<span class="caret caret-large active"></span>
 			</div>
-			<div id="answer-5" class="answer panel-body panel-collapse in">You can access the online lessons here: <a href="http://www.starlearningsystems.com/wp" target="_blank">www.starlearningsystems.com/wordpress</a>. Please note the online lessons are under ongoing development; additional content and features will be available over time. To request a login and password, please call our office at (708) 675-7640.</div>
+			<div id="answer-5" class="answer panel-body panel-collapse in">You can access the online lessons here: <a href="http://www.starlearningsystems.com/wordpress" target="_blank">www.starlearningsystems.com/wordpress</a>. Please note the online lessons are under ongoing development; additional content and features will be available over time. To request a login and password, please call our office at (708) 675-7640.</div>
 		</div>
 	</div>
 @stop
