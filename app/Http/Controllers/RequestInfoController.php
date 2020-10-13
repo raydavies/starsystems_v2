@@ -9,8 +9,8 @@ use Mail;
 
 class RequestInfoController extends Controller
 {
-    const POSTMASTER_EMAIL = 'jordanmand@gmail.com';
-    const POSTMASTER_NAME = 'Jordan Anderson';
+    const POSTMASTER_EMAIL = 'postmaster@starlearningsystems.com';
+    const POSTMASTER_NAME = 'James Anderson';
         
 	/**
 	 * Loads the 'request more information' form.
@@ -42,9 +42,9 @@ class RequestInfoController extends Controller
 				return back()->withInput()->with('alert', ['status' => 'danger', 'message' => 'There was an error submitting your request. Please try again later.']);
 			}
 
-			$subject = 'Information Request - New Customer';
+			$subject = 'Interactive Curriculum Information Request - New Customer';
 		} else {
-			$subject = 'Information Request - Existing Customer';
+			$subject = 'Interactive Curriculum Information Request - Existing Customer';
 		}
 
 		Mail::send('email.request_info', [
