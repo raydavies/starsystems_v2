@@ -6,7 +6,7 @@ WORKDIR /var/www
 
 RUN apt-get update && apt-get install -y \
     build-essential \
-    mysql-client \
+    default-mysql-client \
     libpng-dev \
     libjpeg62-turbo-dev \
     libfreetype6-dev \
@@ -28,7 +28,7 @@ RUN docker-php-ext-install gd
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Install node.js and npm
-RUN curl -sL https://deb.nodesource.com/setup_9.x -o nodesource_setup.sh
+RUN curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
 RUN bash nodesource_setup.sh
 RUN apt-get install nodejs -y
 RUN npm install npm@6.9.0 -g

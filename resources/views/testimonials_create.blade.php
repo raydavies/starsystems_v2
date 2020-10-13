@@ -7,10 +7,10 @@
     <script>
         $(document).ready(function() {
             var form = new FormManager($('#testimonial_form'), {
-                'name': 'validName',
-                'city': 'validName',
-                'state_province': 'validStateAbbr',
-                'comment': 'validInput'
+                'name': 'required|validName',
+                'city': 'required|validName',
+                'state_province': 'required|validStateAbbr',
+                'comment': 'required'
             });
             form.init();
         });

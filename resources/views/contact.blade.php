@@ -6,7 +6,13 @@
 	@parent
 	<script>
         $(document).ready(function() {
-            var form = new FormManager($('#contact_form'));
+            var form = new FormManager($('#contact_form'), {
+				'first_name': 'required|validName',
+				'last_name': 'required|validName',
+				'email': 'required|validEmail',
+				'subject': 'required|validAlphaNum',
+				'message': 'required'
+			});
             form.init();
         });
     </script>

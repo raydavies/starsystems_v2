@@ -17,10 +17,13 @@ function LessonPicker() {
 		$.ajax({
 			url: '/lesson-topics/' + level_id,
 			dataType: 'json',
+			beforeSend: function() {
+				$('#subject_select').prop('disabled', true);
+			},
 			success: function(response) {
 				var i, option;
 				if (response.subjects.length) {
-					$('#subject_select').empty();
+					$('#subject_select').prop('disabled', false).empty();
 
 					for (i in response.subjects) {
 						option = $('<option/>').text(response.subjects[i].name).val(response.subjects[i].id);

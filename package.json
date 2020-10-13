@@ -11,7 +11,7 @@
     },
     "devDependencies": {
         "axios": "^0.18.1",
-        "bootstrap": "^4.4.1",
+        "bootstrap": "^4.5.2",
         "cross-env": "^5.2.1",
         "jquery": "^3.4",
         "laravel-mix": "^4.1.4",
@@ -23,6 +23,6 @@
         "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
-        "jquery-touchswipe": "^1.6.15"
+        "jquery-touchswipe": "^1.6.19"
     }
 }

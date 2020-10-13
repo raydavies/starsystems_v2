@@ -45,6 +45,9 @@ Route::get('/faq', ['as' => 'faq', function() {
 Route::get('contact', ['as' => 'contact', 'uses' => 'ContactController@create']);
 Route::post('contact', ['as' => 'contact', 'uses' => 'ContactController@store']);
 
+Route::get('request-more-info', ['as' => 'request_info', 'uses' => 'RequestInfoController@create']);
+Route::post('request-more-info', ['as' => 'request_info', 'uses' => 'RequestInfoController@store']);
+
 Route::get('privacy', ['as' => 'privacy', function() {
     return view('privacy');
 }]);
@@ -79,4 +82,9 @@ Route::group(['as' => 'admin.', 'prefix' => 'admin', 'middleware' => 'auth', 'na
     Route::get('/testimonials', ['as' => 'testimonials', 'uses' => 'TestimonialsController@index']);
     Route::post('/testimonials/{id}/toggle-status', ['as' => 'testimonials.toggle', 'uses' => 'TestimonialsController@toggleStatus']);
     Route::post('/testimonials/{id}/delete', ['as' => 'testimonials.delete', 'uses' => 'TestimonialsController@delete']);
+
+    Route::get('/customers', ['as' => 'customers', 'uses' => 'CustomerController@index']);
+    Route::get('/customer/{customer}', ['as' => 'customer', 'uses' => 'CustomerController@get']);
+
+    Route::post('/contact/add', ['as' => 'add_customer_contact', 'uses' => 'CustomerContactController@store']);
 });

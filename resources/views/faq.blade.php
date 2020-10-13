@@ -47,7 +47,7 @@
 				<h3 class="panel-title text-left">How much does the program cost?</h3>
 				<span class="caret caret-large active"></span>
 			</div>
-			<div id="answer-4" class="answer panel-body panel-collapse in">It depends whether you are purchasing a subject, a level, or the entire program (our most popular option). Call (708) 675-7640 for more information.</div>
+			<div id="answer-4" class="answer panel-body panel-collapse in">It depends whether you are purchasing a subject, a level, or the entire program (our most popular option). Call (708) 675-7640, or <a href="{{ route('request_info') }}">fill out the form here</a>, for more information.</div>
 		</div>
 
 		<div class="question panel panel-info">

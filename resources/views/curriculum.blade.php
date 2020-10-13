@@ -80,7 +80,7 @@
 					<p>Here's an example of study mode in the Primary (K-3rd grade) level of the Interactive Curriculum. This lesson, on the subject of vowels, is part of the Reading course curriculum.</p>
 					<p>Hundreds of carefully-crafted lessons like this await your student on each level of the Interactive Curriculum.</p>
 					<p>Help your child excel today with the Interactive Curriculum!</p>
-					<a type="button" href="{{ route('contact') }}" class="btn btn-info btn-lg">Request More Information</a>
+					<a type="button" href="{{ route('request_info') }}" class="btn btn-info btn-lg">Request More Information</a>
 				</div>
 			</div>
 		</div>
