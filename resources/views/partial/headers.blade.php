@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="{{ asset('/css/vendor/normalize.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('/css/vendor/fontawesome-5.8.2/css/all.min.css') }}">
 	<link rel="stylesheet" href="{{ mix('css/app.css') }}">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Corben:bold">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Corben:bold">
 @show
 
 @section('headscripts')
