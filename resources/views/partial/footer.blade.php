@@ -30,7 +30,7 @@
 					</li>
 				</ul>
 				<div class="bbb-wrapper">
-					<a href="http://www.bbb.org/chicago/business-reviews/educational-consultants/star-learning-systems-llc-in-homer-glen-il-21000347/#sealclick" target="_blank" rel="nofollow"><img src="http://seal-chicago.bbb.org/seals/blue-seal-120-61-bbb-21000347.png" style="border: 0;" alt="Star Learning Systems LLC BBB Business Review" /></a>
+					<a href="https://www.bbb.org/chicago/business-reviews/educational-consultants/star-learning-systems-llc-in-homer-glen-il-21000347/#sealclick" target="_blank" rel="nofollow"><img src="http://seal-chicago.bbb.org/seals/blue-seal-120-61-bbb-21000347.png" style="border: 0;" alt="Star Learning Systems LLC BBB Business Review" /></a>
 				</div>
 			</div>
 			<div id="footer_col_4" class="footer_col col-md-3 col-sm-4 col-xs-12 text-right">
@@ -44,7 +44,7 @@
 			</div>
 		</div>
 		<div class="row clearfix footer-legal">
-			<p class="col-sm-6">Design by <a href="http://mumblecrumblydesign.com" target="_blank">Mumble Crumbly Design</a></p>
+			<p class="col-sm-6">Design by <a href="https://mumblecrumblydesign.com" target="_blank">Mumble Crumbly Design</a></p>
 			<p class="col-sm-6 copyright text-right">&copy; <?php echo date('Y'); ?> Star Learning Systems LLC</p>
 		</div>
 	</div>
