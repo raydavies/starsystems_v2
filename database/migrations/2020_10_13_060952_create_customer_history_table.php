@@ -19,7 +19,9 @@ class CreateCustomerHistoryTable extends Migration
             $table->integer('user_id');
             $table->string('action');
             $table->text('details')->nullable();
-            $table->timestamp('occurred_at')->nullable();
+            $table->timestamp('occurred_at')->nullable()->useCurrent();
+
+            $table->index(['action', 'customer_id']);
         });
     }
 
