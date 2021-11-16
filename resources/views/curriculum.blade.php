@@ -74,7 +74,7 @@
 				</div>
 			</div>
 			<div class="item row clearfix">
-				<iframe height="405" src="https://www.youtube.com/embed/K8mcfFUghf0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen class="col-lg-6 col-xs-12 video-slide"></iframe>
+				<iframe height="405" src="https://player.vimeo.com/video/198443507?h=a6af843312&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allowfullscreen frameborder="0" class="col-lg-6 col-xs-12 video-slide"></iframe>
 				<div class="col-lg-6 col-xs-12 caption">
 					<header><strong>See It In Action</strong></header>
 					<p>Here's an example of study mode in the Primary (K-3rd grade) level of the Interactive Curriculum. This lesson, on the subject of vowels, is part of the Reading course curriculum.</p>
