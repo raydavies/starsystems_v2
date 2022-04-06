@@ -57,12 +57,19 @@ class TestimonialController extends Controller
 		$testimonial = new Testimonial($request->all());
 
 		if ($testimonial->save()) {
-			Mail::send('email.testimonial', array(
-				'testimonial' => $testimonial
-			), function($message) {
-				$message->from('automailer@starlearningsystems.com');
-				$message->to(ContactController::POSTMASTER_EMAIL, ContactController::POSTMASTER_NAME)->subject('New Customer Testimonial');
-			});
+			try {
+				Mail::send('email.testimonial', array(
+					'testimonial' => $testimonial
+				), function($message) {
+					$message->from('automailer@starlearningsystems.com');
+					$message->to(ContactController::POSTMASTER_EMAIL, ContactController::POSTMASTER_NAME)->subject('New Customer Testimonial');
+				});
+			} catch (\Exception $e) {
+				error_log(sprintf(
+					"Unable to send new testimonial notification email: %s",
+					$e->getMessage()
+				));
+			}
 
 			return redirect('testimonials')->with('alert',
 				['status' => 'success', 'message' => 'Thank you for submitting your testimonial!']

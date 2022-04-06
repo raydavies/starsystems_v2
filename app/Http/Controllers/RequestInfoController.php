@@ -47,12 +47,19 @@ class RequestInfoController extends Controller
 			$subject = 'Interactive Curriculum Information Request - Existing Customer';
 		}
 
-		Mail::send('email.request_info', [
-			'customer' => $customer
-		], function($message) use ($customer, $subject) {
-			$message->from($customer->email, $customer->name);
-			$message->to(self::POSTMASTER_EMAIL, self::POSTMASTER_NAME)->subject($subject);
-		});
+		try {
+			Mail::send('email.request_info', [
+				'customer' => $customer
+			], function($message) use ($customer, $subject) {
+				$message->from($customer->email, $customer->name);
+				$message->to(self::POSTMASTER_EMAIL, self::POSTMASTER_NAME)->subject($subject);
+			});
+		} catch (\Exception $e) {
+			error_log(sprintf(
+				"Unable to send request info lead email: %s",
+				$e->getMessage()
+			));
+		}
 
 		return redirect()->route('request_info')->with('alert', ['status' => 'success', 'message' => "Thank you for your interest! We'll get back to you with more information shortly."]);
 	}
