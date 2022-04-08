@@ -85,6 +85,7 @@ Route::group(['as' => 'admin.', 'prefix' => 'admin', 'middleware' => 'auth', 'na
 
     Route::get('/customers', ['as' => 'customers', 'uses' => 'CustomerController@index']);
     Route::get('/customer/{customer}', ['as' => 'customer', 'uses' => 'CustomerController@get']);
+    Route::post('/customer/{id}/delete', ['as' => 'customer.delete', 'uses' => 'CustomerController@delete']);
 
     Route::post('/contact/add', ['as' => 'add_customer_contact', 'uses' => 'CustomerContactController@store']);
 });

@@ -9,6 +9,10 @@
     </div>
 
     <div id="customer_manager">
+        <div class="spinner text-danger hidden" role="status">
+            <i class="fa-solid fa-5x fa-circle-notch spinning"></i>
+            <span class="sr-only">Deleting Customer...</span>
+        </div>
         <section id="customer_list" class="text-left">
             @if (count($customers))
                 <div class="row clearfix">
@@ -26,11 +30,12 @@
                                 <th scope="col">Zip</th>
                                 <th scope="col">Child's Name</th>
                                 <th scope="col">Child's Grade</th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach ($customers as $index => $customer)
-                                <tr>
+                                <tr id="customer-{{ $customer->id }}" class="customer">
                                     <th scope="row">@if (!$customer->contactHistory->count())<span class="label label-primary">New</span>@endif</th>
                                     <td><a href="{{ route('admin.customer', ['customer' => $customer->id]) }}">{{ $customer->name }}</a></td>
                                     <td>{{ $customer->email }}</td>
@@ -42,6 +47,7 @@
                                     <td>{{ $customer->zip_code }}</td>
                                     <td>{{ $customer->child_name }}</td>
                                     <td>{{ $customer->fullGrade->name ?? null }}</td>
+                                    <td><button type="button" class="btn btn-danger btn-sm delete-button">Delete</button></td>
                                 </tr>
                             @endforeach
                         </tbody>

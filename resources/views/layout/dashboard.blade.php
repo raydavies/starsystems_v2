@@ -36,6 +36,7 @@
         @include('partial.admin.navigation')
     </nav>
 </header>
+<div id="overlay" class="hidden"></div>
 <div class="main_wrapper">
     @if (Session::has('alert'))
         <div class="alert-box">

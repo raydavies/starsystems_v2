@@ -1,0 +1,21 @@
+#customer_manager {
+    .spinner {
+        z-index: 1000;
+        position: fixed;
+        top: 45%;
+        left: 50%;
+
+        .spin-frames() {
+            from { transform: scale(1) rotate(0deg); }
+            to { transform: scale(1) rotate(360deg); }
+        }
+
+        .spinning {
+            animation: spin 1s infinite linear;
+            -webkit-animation: spin 1s infinite linear;
+
+            @keyframes spin {.spin-frames();}        
+            @-webkit-keyframes spin {.spin-frames();}
+        }
+    }
+}

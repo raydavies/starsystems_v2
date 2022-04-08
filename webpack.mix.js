@@ -23,6 +23,7 @@ mix.scripts([
 ], 'public/js/legacy.js');
 
 mix.scripts([
+   'resources/js/admin/customer-manager.js',
    'resources/js/admin/testimonials-manager.js',
    'resources/js/form-validator.js',
    'resources/js/scroll.js'
