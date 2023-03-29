@@ -15,7 +15,7 @@
 				<h3 class="panel-title text-left">What exactly is the Interactive Curriculum Program?</h3>
 				<span class="caret caret-large active"></span>
 			</div>
-			<div id="answer-0" class="answer panel-body panel-collapse in">The Interactive Curriculum is a comprehensive computer program designed especially for home use. The Interactive Curriculum will teach your child the specific topics he or she is expected to learn at each grade level in order to achieve academic success. The program uses interactive teaching and practice lessons on your computer, as well as multimedia and videos lessons along with thousands of printable worksheets which include teaching examples for all subjects. Check out our <a href="https://www.youtube.com/channel/UCy8NQmcfJySLxx2jy2vVTAg" target="_blank">YouTube</a> or <a href="https://www.facebook.com/pages/Star-Learning-Systems/1624841284396161?ref=ts&fref=ts" target="_blank">Facebook</a> page for examples of lessons.</div>
+			<div id="answer-0" class="answer panel-body panel-collapse in">The Interactive Curriculum is a comprehensive computer program designed especially for home use. The Interactive Curriculum will teach your child the specific topics he or she is expected to learn at each grade level in order to achieve academic success. The program uses interactive teaching and practice lessons on your computer, as well as multimedia and videos lessons along with thousands of printable worksheets which include teaching examples for all subjects. Check out our <a href="https://www.facebook.com/pages/Star-Learning-Systems/1624841284396161?ref=ts&fref=ts" target="_blank">Facebook</a> page for examples of lessons.</div>
 		</div>
 
 		<div class="question panel panel-info">
