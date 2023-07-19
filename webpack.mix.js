@@ -13,7 +13,7 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js');
 
-mix.scripts([
+mix.js([
    'resources/js/analytics-tracking.js',
    'resources/js/faq.js',
    'resources/js/form-validator.js',
@@ -22,7 +22,7 @@ mix.scripts([
    'resources/js/swipe.js'
 ], 'public/js/legacy.js');
 
-mix.scripts([
+mix.js([
    'resources/js/admin/customer-manager.js',
    'resources/js/admin/testimonials-manager.js',
    'resources/js/form-validator.js',
