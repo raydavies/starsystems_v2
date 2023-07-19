@@ -1,4 +1,6 @@
 {
+    "name": "starlearningsystems.com",
+    "author": "Jordan Anderson <jordanmand@gmail.com>",
     "private": true,
     "scripts": {
         "dev": "npm run development",

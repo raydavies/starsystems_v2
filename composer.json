@@ -1,9 +1,9 @@
 {
-    "name": "laravel/laravel",
-    "type": "project",
-    "description": "The Laravel Framework.",
+    "name": "mumblecrumbly/starsystems",
+    "type": "website",
+    "description": "Star Learning Systems",
     "keywords": [
-        "framework",
+        "education",
         "laravel"
     ],
     "license": "MIT",
