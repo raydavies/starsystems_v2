@@ -1,1 +1,0 @@
-<div class="log-form-group"><label for="remember"> <?php _e('Remember Me','login-sidebar-widget');?></label> <?php form_class::form_checkbox('remember','remember','Yes','','','','',false,'',true);?></div>
